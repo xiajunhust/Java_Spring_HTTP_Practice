@@ -20,5 +20,10 @@ public class StringTest {
         Date date = new Date();
         System.out.println(date.toString());
         System.out.println(date.getTime());
+
+        String s1 = "xia";
+        String s2 = null;
+        String s3 = s1 + s2;
+        System.out.println(s3);
     }
 }
